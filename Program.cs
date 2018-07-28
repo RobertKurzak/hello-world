@@ -6,7 +6,12 @@ namespace hello_world
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Clear();
+            Console.WriteLine("Hello World GITHUB");
+            Console.ResetColor();
+            
         }
     }
 }
